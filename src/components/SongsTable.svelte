@@ -51,7 +51,7 @@
                 <td>{`${song.artist} - ${song.title}`}</td>
                 <td class="text-center">{song.streams}</td>
                 <td class="pl-5">
-                    <a href="#" on:click={() => copyUrl(song)}>Copy</a>
+                    <a href={`#${song.id}`} on:click={() => copyUrl(song)}>Copy</a>
                 </td>
                 <td class="pl-5">
                     <audio controls preload="none">
