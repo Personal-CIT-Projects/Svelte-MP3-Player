@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: objektiv-mk1;
+    src: url(fonts/ObjektivMk1.ttf);
+}
+
+:root {
+    font-family: objektiv-mk1, sans-serif;
+}
+
+.flexElements {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centerElements {
+    justify-content: center;
+}
